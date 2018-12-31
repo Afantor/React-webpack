@@ -1,0 +1,30 @@
+{
+  "name": "react-webpack",
+  "version": "0.0.1",
+  "description": "a demo for Electron App using React and Webpack",
+  "main": "main.js",
+  "scripts": {
+    "dev": "webpack-dev-server",
+    "electron": "electron .",
+    "start": "webpack --config webpack.config.js",
+    "build": "webpack",
+    "packager": "electron-packager . --all --asar --overwrite"
+  },
+  "keywords": [
+    "React",
+    "Webpack",
+    "Electron"
+  ],
+  "author": "Afantor",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {
+    "electron": "^3.0.13",
+    "react": "^16.7.0",
+    "react-dom": "^16.7.0",
+    "react-hyperscript": "^3.2.0",
+    "webpack": "^4.28.3",
+    "webpack-cli": "^3.1.2",
+    "webpack-dev-server": "^3.1.14"
+  }
+}
